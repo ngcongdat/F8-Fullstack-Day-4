@@ -101,3 +101,140 @@ b {
     font-size: 0.6em;
     margin-top: 14px;
 }
+
+/* ======== FORM CSS ======== */
+.reg-container {
+    background: #f0f0f0;
+    padding: 100px 0;
+}
+.reg-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 24px 30px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.reg-header {
+    text-align: center;
+}
+
+.reg-header img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.reg-header h1 {
+    font-size: 1.4em;
+    margin: 15px 0 10px;
+}
+
+.reg-header p {
+    font-size: 0.8em;
+    font-weight: 100;
+}
+
+.reg-form {
+    margin-top: 30px;
+}
+
+.reg-form label {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.reg-form input {
+    margin: 6px 0;
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+}
+
+.form-group {
+    margin-top: 10px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-col {
+    width: 48%;
+}
+
+.option-item {
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+}
+.option-item input {
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.avatar img {
+    width: 50px;
+    margin-left: 20px;
+}
+
+.submit {
+    margin-top: 30px;
+}
+
+.btn {
+    transition: 0.6s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.submit-btn {
+    width: 60%;
+    height: 30px;
+    padding: 6px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 6px;
+    border: 0;
+    background: #6cff74;
+}
+
+.submit p {
+    margin: 24px 0;
+    font-size: 0.7em;
+    font-weight: 100;
+    text-align: center;
+}
+
+.login-w-social {
+    width: 100%;
+    padding: 3px 0;
+    height: 30px;
+    border-width: 0;
+    border-radius: 6px;
+}
+
+.login-w-social img {
+    width: 20px;
+}
+
+.login a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.login a:hover {
+    color: #6cff74;
+}
