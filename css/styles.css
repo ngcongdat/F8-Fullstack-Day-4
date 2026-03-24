@@ -238,3 +238,37 @@ b {
 .login a:hover {
     color: #6cff74;
 }
+
+/* ======== MENU CSS ======== */
+.nav {
+    background: #3f5cca;
+    text-align: center;
+    font-size: 0;
+}
+
+.nav-items .item {
+    display: inline-block;
+    padding: 32px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.nav-items .item a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-items .item.active,
+.nav-items .item:hover {
+    background: #fff;
+}
+
+.nav-items .item.active a,
+.nav-items .item:hover a {
+    color: #000;
+}
+
+.nav-items .item,
+.nav-items .item.active {
+    transition: 0.5s;
+}
